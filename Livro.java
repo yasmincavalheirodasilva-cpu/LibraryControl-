@@ -16,5 +16,9 @@ public class Livro {
     System.out.println("Digite o nome do livro: " + this.nome);
     System.out.println("Digite o nome do autor: " + this.autor);
     System.out.println("Digite o numero de paginas do livro: " + this.paginas);
+
    }
+
+   public void emprestar() {
+    disponivel = false;
 }
